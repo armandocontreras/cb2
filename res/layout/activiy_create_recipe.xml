@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipe Name"
+        android:inputType="textAutoCorrect" />
+	<Spinner
+    	android:id="@+id/category"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+	<ImageButton
+        android:id="@+id/add_ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_new"
+        android:layout_gravity="left"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:onClick="addIngredient"/>
+	<EditText
+        android:id="@+id/ingredients"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:hint="Ingredients"
+        android:inputType="textAutoCorrect" />
+	<ImageButton
+        android:id="@+id/add_instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_new"
+        android:layout_gravity="left"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:onClick="addInstruction"/>
+        
+	<EditText
+        android:id="@+id/instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:hint="Instructions"
+        android:inputType="textAutoCorrect" />
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+</LinearLayout>

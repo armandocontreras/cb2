@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1"
+		android:paddingBottom="30dp"
+		android:paddingTop="30dp"
+		android:paddingLeft="15dp"
+		android:paddingRight="15dp"
+		android:orientation="vertical">
+		<LinearLayout
+						android:id="@+id/emailtextblock"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_centerHorizontal="true"
+						android:layout_marginTop="10dp"
+						android:layout_below="@+id/nav"
+						android:orientation="vertical">
+						<com.mantis.cookingbuddy.CustomTextView
+							    android:id="@+id/cecemail"
+							    android:layout_width="wrap_content"
+							    android:layout_height="wrap_content"
+							    android:textColor="@color/white"
+							    android:text="Email:" />
+						<EditText
+		    				android:id="@+id/emailtext"
+							android:layout_height="wrap_content"
+							android:layout_width="fill_parent"
+							android:inputType="text"
+							/>	
+						<com.mantis.cookingbuddy.CustomButton
+						    android:id="@+id/submit_button"
+						    android:layout_centerHorizontal="true"
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:textColor="@color/blue" 
+						    android:text="Done"
+						    android:layout_marginTop="60dp" />
+			</LinearLayout>
+		
+</RelativeLayout>

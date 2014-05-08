@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Review" />
+	<EditText
+        android:id="@+id/review_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:hint="Review Content"
+        android:inputType="textAutoCorrect" />
+	<TextView
+        android:id="@+id/rate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate: " />
+	<EditText
+        android:id="@+id/rate_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:hint="Rate"
+        android:inputType="textAutoCorrect" />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+</LinearLayout>

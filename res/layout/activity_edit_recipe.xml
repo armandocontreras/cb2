@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<Button
+		    android:id="@+id/capture_btn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="capture"
+	    />
+    <ImageView 
+        android:id="@+id/picture"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:contentDescription="picture"
+	    android:layout_margin="5dp"
+	    android:background="@drawable/pic_border" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipe Name"
+        android:inputType="textAutoCorrect" />
+	<Spinner
+    	android:id="@+id/category"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+	<EditText
+        android:id="@+id/ingredients"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:hint="Ingredients"
+        android:inputType="textAutoCorrect" />
+	<EditText
+        android:id="@+id/instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:hint="Instructions"
+        android:inputType="textAutoCorrect" />
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+	
+</LinearLayout>
