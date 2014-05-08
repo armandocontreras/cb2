@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="logo_color">#FFFF0F</color>
+    <color name="version_color">#f0f0f0</color>
+    <color name="version_bkgrd">#1a1a48</color>
+    <color name="task_head_bkg">#0F439D</color>
+    <color name="link_color">#0F439D</color>
+    <color name="header_bgk">#0E3682</color>
+    <color name="copy">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bkg">#FFFFFF</color>
+    <color name="title_color">#f0f0f0</color>
+    <color name="gray">#f0f0f0</color>
+    <color name="red">#EE2A31</color>
+    <color name="title_glow">#F00</color>
+    <color name="menu_color">#FFFF0F</color>
+    <color name="menu_glow">#F00</color>
+    <color name="error_color">#F00</color>
+    <color name="blue">#ff1849a3</color>
+    <color name="holo_blue_light">#ff1849a3</color>
+    <color name="green">#f0669900</color>
+    <color name="green_light">#f099CC00</color>
+    <color name="sep_background">#ff7B409B</color>
+</resources>

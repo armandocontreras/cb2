@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    <Button
+                android:id="@+id/view_reviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:onClick="viewReviews"
+                android:text="See Reviews" />
+	    <Button
+                android:id="@+id/write_review"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:onClick="createReview"
+                android:text="Review" />
+    </LinearLayout>
+    <View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+    <ImageView 
+        android:id="@+id/picture"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:contentDescription="picutre"
+	    android:layout_margin="5dp" />
+
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/category_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="header"
+        android:text="category" />
+    
+	<TextView
+    	android:id="@+id/category"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+	<TextView
+        android:id="@+id/ingredients_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="ingredients" />
+	<TextView
+        android:id="@+id/ingredients"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/darker_gray"/>
+	<TextView
+        android:id="@+id/instructions_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="instructions" />
+	<TextView
+        android:id="@+id/instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"/>
+	
+</LinearLayout>

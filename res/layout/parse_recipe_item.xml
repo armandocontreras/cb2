@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/grey_glossy">	
+    <ImageView
+        android:id="@+id/icon"
+        android:src="@drawable/ic_empty"
+        android:layout_width="@dimen/list_thumb_size"
+		android:layout_height="@dimen/list_thumb_size" />
+	  <LinearLayout
+        android:id="@+id/info_wrap"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_toRightOf="@id/icon"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:padding="@dimen/list_detail_padding"
+	    android:orientation="vertical" >
+	    		<TextView
+			        android:id="@+id/text1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:paddingLeft="3dip"
+			        android:paddingRight="3dip" />
+				<TextView
+			        android:id="@+id/text2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:paddingLeft="3dip"
+			        android:paddingRight="3dip" />
+			    <TextView
+			        android:id="@+id/servings"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:paddingLeft="3dip"
+			        android:paddingRight="3dip" />
+				<TextView
+			        android:id="@+id/oid"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:paddingLeft="3dip"
+			        android:paddingRight="3dip" />
+	</LinearLayout>
+</RelativeLayout>
