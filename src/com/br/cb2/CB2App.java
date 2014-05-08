@@ -26,7 +26,8 @@ public class CB2App extends Application {
 		Parse.initialize(this, getResources().getString(R.string.parse_app_id), getResources().getString(R.string.parse_client_key));
 
 		ParseACL defaultACL = new ParseACL();
-		// Optionally enable public read access.
+		
+		
 		defaultACL.setPublicReadAccess(true);
 		ParseACL.setDefaultACL(defaultACL, true);
 		ParseFacebookUtils.initialize(getResources().getString(R.string.parse_client_key));
